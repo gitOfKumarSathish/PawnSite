@@ -1,0 +1,7 @@
+__pycache__/
+.venv
+.vscode/
+.git/
+gold.db
+check.py
+images/
