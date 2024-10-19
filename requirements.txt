@@ -113,7 +113,7 @@ python-swiftclient==3.13.0
 pytz==2024.2
 PyYAML==6.0.2
 qrcode==7.0
-referencing==0.36.1
+referencing==0.35.1
 repoze.lru==0.7
 requests==2.31.0
 requestsexceptions==1.4.0
