@@ -1,44 +1,154 @@
+alembic==1.13.3
+amqp==5.2.0
 annotated-types==0.7.0
-anyio==4.6.0
+anyio==4.0.0
+attrs==24.2.0
+automaton==3.2.0
+autopage==0.5.2
+bcrypt==4.0.1  # Ensure compatibility with Python 3.8
+cachetools==5.3.1
 certifi==2024.8.30
-click==8.1.7
+cffi==1.15.1   # Compatible with Python 3.8
+charset-normalizer==3.1.0
+click==8.1.3   # Compatible version
+cliff==4.6.0
+cmd2==2.4.2
+cryptography==41.0.3  # Compatible with Python 3.8
+debtcollector==3.0.0
+decorator==5.1.1
 dnspython==2.6.1
-email_validator==2.2.0
-exceptiongroup==1.2.2
-fastapi==0.115.0
+dogpile.cache==1.2.0
+email_validator==1.3.0  # Downgraded for Python 3.8 compatibility
+eventlet==0.37.0
+exceptiongroup==1.2.0
+fastapi==0.85.1  # Compatible FastAPI version for Python 3.8
 fastapi-cli==0.0.5
-greenlet==3.1.1
+fasteners==0.19
+futurist==3.0.0
+greenlet==3.0.1  # Compatible with Python 3.8
 h11==0.14.0
-httpcore==1.0.6
-httptools==0.6.1
-httpx==0.27.2
-idna==3.10
-itsdangerous==2.2.0
-Jinja2==3.1.4
-markdown-it-py==3.0.0
-MarkupSafe==2.1.5
-mdurl==0.1.2
-orjson==3.10.7
-pydantic==2.9.2
-pydantic-extra-types==2.9.0
-pydantic-settings==2.5.2
-pydantic_core==2.23.4
-Pygments==2.18.0
-PyJWT==2.9.0
+httpcore==0.15.0  # Compatible with Python 3.8
+httptools==0.5.0
+httpx==0.23.0  # Compatible with Python 3.8
+idna==3.4
+importlib_metadata==4.0.0  # Ensure compatibility with Python 3.8
+iso8601==2.1.0
+itsdangerous==2.1.2
+Jinja2==3.1.2
+jmespath==1.0.1
+jsonpatch==1.32
+jsonpointer==3.0.0
+jsonschema==4.15.0
+jsonschema-specifications==2024.10.1
+keystoneauth1==5.8.0
+keystonemiddleware==10.7.1
+kombu==5.2.0  # Compatible version
+logutils==0.3.5
+magnum==19.0.0
+Mako==1.2.3  # Downgrade for Python 3.8 compatibility
+markdown-it-py==2.2.0  # Compatible version
+MarkupSafe==2.0.1
+mdurl==0.1.1
+msgpack==1.0.3
+netaddr==1.5.0
+netifaces==0.11.0
+networkx==3.4.1
+openstacksdk==4.1.0
+orjson==3.6.7  # Ensure compatibility with Python 3.8
+os-client-config==2.1.0
+os-service-types==1.7.0
+osc-lib==3.0.1
+oslo.cache==3.7.0
+oslo.concurrency==6.0.0
+oslo.config==9.6.0
+oslo.context==5.6.0
+oslo.db==16.0.0
+oslo.i18n==6.4.0
+oslo.log==6.1.0
+oslo.messaging==14.8.1
+oslo.metrics==0.9.0
+oslo.middleware==6.2.0
+oslo.policy==4.3.0
+oslo.reports==3.4.0
+oslo.serialization==5.3.0
+oslo.service==3.4.0
+oslo.upgradecheck==2.4.0
+oslo.utils==7.0.0
+oslo.versionedobjects==3.4.0
+packaging==24.0
+Paste==3.10.1
+PasteDeploy==3.1.0
+pbr==6.0.0
+pecan==1.4.1
+platformdirs==2.5.0
+prettytable==3.10.0
+prometheus_client==0.19.0
+psutil==5.9.5
+pycadf==3.1.1
+pycparser==2.22
+pydantic==1.10.7  # Downgraded for Python 3.8 compatibility
+pydantic-extra-types==1.2.0  # Compatible version
+pydantic-settings==1.0.1
+pydantic-core==2.0.1  # Ensure compatibility with Python 3.8
+pydot==1.4.2  # Downgraded version
+Pygments==2.12.0
+PyJWT==2.7.0  # Compatible with Python 3.8
+pyOpenSSL==24.2.1
 pyotp==2.9.0
-python-dotenv==1.0.1
-python-multipart==0.0.12
+pyparsing==3.1.1
+pyperclip==1.9.0
+python-barbicanclient==7.0.0
+python-cinderclient==9.5.0
+python-dateutil==2.8.2
+python-dotenv==0.21.1
+python-glanceclient==4.6.0
+python-heatclient==3.3.0
+python-keystoneclient==5.5.0
+python-multipart==0.0.5  # Downgrade for compatibility
+python-neutronclient==10.2.0
+python-novaclient==18.6.0
+python-octaviaclient==3.8.0
+python-openstackclient==7.1.0
+python-swiftclient==3.13.0
+pytz==2024.2
 PyYAML==6.0.2
-qrcode==8.0
-rich==13.9.2
-shellingham==1.5.4
-sniffio==1.3.1
-SQLAlchemy==2.0.35
-starlette==0.38.6
-typer==0.12.5
-typing_extensions==4.12.2
-ujson==5.10.0
-uvicorn==0.31.0
-uvloop==0.20.0
-watchfiles==0.24.0
-websockets==13.1
+qrcode==7.0.1
+referencing==0.36.1
+repoze.lru==0.7
+requests==2.31.0  # Downgraded version
+requestsexceptions==1.4.0
+rfc3986==1.5.0  # Downgraded for Python 3.8 compatibility
+rich==12.5.0
+Routes==2.5.1
+rpds-py==0.20.0
+shellingham==1.4.0
+simplegeneric==0.8.1
+six==1.16.0
+sniffio==1.2.0
+SQLAlchemy==1.4.49  # Downgraded for compatibility
+starlette==0.21.0  # Downgrade for compatibility
+statsd==4.0.1
+stevedore==4.2.0
+taskflow==5.9.1
+tenacity==9.0.0
+testresources==2.0.1
+testscenarios==0.5.0
+testtools==2.5.0
+typer==0.7.0  # Downgrade for compatibility
+typing-extensions==4.0.1
+tzdata==2024.2
+ujson==5.3.0  # Downgraded for compatibility
+urllib3==1.26.14
+uvicorn==0.17.6  # Downgrade for Python 3.8 compatibility
+uvloop==0.16.0
+vine==5.0.0
+warlock==1.3.1
+watchfiles==0.18.0
+wcwidth==0.2.5  # Compatible version
+WebOb==1.8.7
+websockets==10.2  # Downgrade for compatibility
+Werkzeug==3.0.4
+wrapt==1.12.1  # Downgrade for compatibility
+WSME==0.9.5  # Compatible version
+yappi==1.6.0
+zipp==3.8.1  # Compatible version
