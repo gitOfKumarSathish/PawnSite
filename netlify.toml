@@ -1,7 +1,11 @@
 [build]
-  command = "pip install -r requirements.txt"
-  functions = "functions"
+  command = "python -m uvicorn app:app --host 0.0.0.0 --port 8000"
+  publish = "public"
 
-[[functions]]
-  name = "fastapi_function"
-  path = "functions/fastapi_function.py"
+[functions]
+  directory = "functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/fastapi_function"
+  status = 200
