@@ -149,6 +149,6 @@ WebOb==1.8.7
 websockets==10.2
 Werkzeug==3.0.4
 wrapt==1.12.1
-WSME==0.9.5
+WSME==0.12.1
 yappi==1.6.0
 zipp==3.8.1
